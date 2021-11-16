@@ -1,0 +1,27 @@
+.navBarWrapper {
+    width: 100vw;
+    height: 50px;
+    background: #152232;
+    color: #a0b1c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.navBar li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.navBar a {
+    color: #a0b1c5;
+    text-decoration: none;
+}
